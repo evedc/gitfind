@@ -18,3 +18,24 @@
     margin-top: 40px;
     color: #ffffff;
 }
+
+input {
+    border-radius: 22px;
+    min-width: 250px;
+    width: 80%;
+    margin-right: 12px;
+    border: 1px solid #999999;
+    background-color: transparent;
+    font-size: 18px;
+    padding: 10px;
+}
+
+button {
+    border-radius: 22px;
+    margin-right: 12px;
+    border: 1px solid #999999;
+    background: #2D333B;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px;
+}
