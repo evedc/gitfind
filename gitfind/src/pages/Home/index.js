@@ -1,3 +1,5 @@
+
+import { useState } from 'react'
 import { Header } from '../../components/Header';
 import background from '../../assets/background.png';
 import ItemList from '../../components/ItemList';
@@ -6,6 +8,17 @@ import ItemList from '../../components/ItemList';
 import './styles.css'
 
 function App() {
+    const [user, setUser] = useState('');
+    const [correntUser, setCurrentUser] = useState(null);
+    const [repos, setRepos] = useState(null);
+
+    const handleGetData = async () => {
+        const userData = await fetch(`https://api.github.com/users/${user}`);
+        const newUser = await userData.json();
+
+    }
+
+
     return (
         <div className="App">
             <Header />
@@ -15,7 +28,9 @@ function App() {
 
                 <div className="info">
                     <div>
-                        <input name="usuario" placeholder="@username" />
+                        <input name="usuario" value={user}
+                            onChange={event => setUser(event.target.value)}
+                            placeholder="@username" />
                         <button>Buscas</button>
                     </div>
                     <div className="perfil">
