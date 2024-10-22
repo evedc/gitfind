@@ -1,5 +1,20 @@
-.conteudo {}
+.conteudo {
+    position: relative;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
 
 .background {
-    height: 80vh;
+    height: 90vh;
+    position: absolute;
+    left: 0;
+}
+
+.info {
+    width: 60%;
+    margin-right: 90px;
+    margin-top: 40px;
+    color: #ffffff;
 }
