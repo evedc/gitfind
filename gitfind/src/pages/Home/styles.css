@@ -22,7 +22,7 @@
 input {
     border-radius: 22px;
     min-width: 250px;
-    width: 80%;
+    width: 85%;
     margin-right: 12px;
     border: 1px solid #999999;
     background-color: transparent;
@@ -42,7 +42,7 @@ button {
 
 .perfil {
     display: flex;
-    margin: 20px 0;
+    margin: 40px 0;
 
 }
 
@@ -51,4 +51,25 @@ button {
     height: 120px;
     border-radius: 60px;
     border: 2px solid #ffffff;
+    margin-right: 32px;
+
+}
+
+.perfil h3 {
+    color: #999999;
+    font-size: 24px;
+    margin: 0;
+}
+
+.perfil span {
+    display: block;
+    color: #999999;
+    font-size: 12px;
+    margin: 0;
+}
+
+.perfil p {
+    color: #999999;
+    font-size: 12px;
+    margin: 20px 0 0 0;
 }

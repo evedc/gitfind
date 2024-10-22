@@ -20,11 +20,11 @@ function App() {
                         <img src="https://avatars.githubusercontent.com/u/166746018?v=4" className="profile"></img>
                         <div>
                             <h3>Évelim Dornelles</h3>
-                            <p>Descrição</p>
+                            <span>@evedc</span>
+                            <p>Estudante de Ciência da Computação | Front-End Developer.</p>
                         </div>
-
-
                     </div>
+                    <hr />
 
                 </div>
 
